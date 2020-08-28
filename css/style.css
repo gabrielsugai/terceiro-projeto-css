@@ -1,0 +1,21 @@
+body{
+    font-family: 'Open Sans', 'Arial';
+    color: #666;
+    line-height: 1.7;
+}
+
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    background-color: red;
+}
+
+.main-content{
+    width: 65%;
+    margin-left: 35%;
+    padding: 124px 54px 72px 54px;
+    box-sizing: border-box;
+}
