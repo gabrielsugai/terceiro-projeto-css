@@ -101,6 +101,33 @@ ul, ol{
     color: #49bf9d;
 }
 
+input, label, textarea{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input, textarea, select{
+    background-color: #eee;
+    padding: 15px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    margin-bottom: 15px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
+}
+
+input:focus, textarea:focus{
+    border: 3px solid #49bf9d;
+    outline: none;
+}
+
+textarea{
+    height: 10em;
+}
+
 .button-default{
     background-color: #49bf9d;
     border: 2px solid #49bf9d;
@@ -109,6 +136,7 @@ ul, ol{
     border-radius: 5px;
     font-size: .8em;
     display: inline-block;
+    width: auto;
 }
 
 .button-default-stroke{
@@ -119,6 +147,10 @@ ul, ol{
 
 .button-default-small{
     font-size: .65em;
+}
+
+.button-default-big{
+    font-size: 1em;
 }
 
 .button-default-full{
@@ -203,6 +235,23 @@ ul, ol{
 }
 
 .col-2{
-    width: 50%;
+    width: 47%;
+    float: left;
+}
+
+.col-2:first-child{
+    margin-right: 3%;
+}
+.col-2:last-child{
+    margin-left: 3%;
+}
+.col2-3{
+    width: 65%;
+    float: left;
+}
+
+.col1-3{
+    width: 32%;
+    margin-left: 3%;
     float: left;
 }

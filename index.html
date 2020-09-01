@@ -97,16 +97,20 @@
                 <div class="col2-3">
 
                     <form action="#" method="POST">
-                        <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome">
-                        
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email">
-                        
+                        <div class="row">
+                            <div class="col-2">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="nome">
+                            </div>
+                            <div class="col-2">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email">
+                            </div>
+                        </div>
                         <label for="mensagem">Mensagem</label>
-                        <input type="text" name="mensagem" id="mensagem">
+                        <textarea name="mensagem" id="mensagem"></textarea>
                         
-                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Enviar" class="button-default button-default-stroke button-default-big">
                     </form>
 
                 </div>
@@ -132,7 +136,7 @@
                 </div>
                     
             </div>
-            
+
             </section>
             
             <section class="main-content-section">
@@ -368,8 +372,8 @@
 
                 <label for="msg">Message:</label>
                 <textarea placeholder="Enter your message" id="msg"></textarea>
-                <input type="submit" class="button-default" value="Send Message">
-                <input type="reset" class="button-default-stroke" value="Reset">
+                <input type="submit" class="button-default button-default-big" value="Send Message">
+                <input type="reset" class="button-default button-default-big button-default-stroke" value="Reset">
             </form>
         </section>
 
