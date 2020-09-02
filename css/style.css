@@ -237,6 +237,14 @@ textarea{
     box-sizing: border-box;
 }
 
+.main-header-link img{
+    border-radius: 50%;
+}
+
+.recent-works-card img{
+    border-radius: 10px;
+}
+
 .row{
     overflow: auto;
 
