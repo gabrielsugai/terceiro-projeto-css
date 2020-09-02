@@ -15,6 +15,10 @@ a:hover{
     border-bottom-color: transparent;
 }
 
+img{
+    max-width: 100%;
+}
+
 p{
     margin: 0 0 2em;
 }
@@ -156,6 +160,10 @@ textarea{
 .button-default-full{
     text-align: center;
     display: block;
+}
+
+.image-link{
+    border: 0;
 }
 
 .table{
